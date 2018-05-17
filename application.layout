@@ -687,5 +687,4 @@
     		return false;
     	});
     });
-
 </script>
