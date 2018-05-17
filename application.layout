@@ -92,8 +92,7 @@
             });      
         });
         
-        // setEndPoint('//laurentianhills.mallmaverick.com/api/v4/laurentian/all.json');
-        setEndPoint('//twinpine.mallmaverick.com/api/v4/twinpine/all.json');
+        setEndPoint('//laurentianhills.mallmaverick.com/api/v4/laurentian/all.json');
     </script>
     <style>
         /*custom styles*/
