@@ -108,7 +108,7 @@
             background-repeat: no-repeat;
         }
         a .directory_content:hover{
-            color: #999 !important;
+            color: #666666 !important;
         }
         /*hyperlinks*/
         a {
