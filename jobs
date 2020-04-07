@@ -85,7 +85,9 @@
             // dynamic banner 
             var bannerInfo = getRepoDetailsByName('Jobs Banner')
             var bannerImageUrl = bannerInfo.images[0].image_url
-            $(".inside_banner_image").attr("src", bannerImageUrl);
+            if (bannerImageUrl) {
+                $(".inside_banner_image").attr("src", bannerImageUrl);
+            }
         }
         
         function renderPageData(container, template, collection, type){
